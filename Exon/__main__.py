@@ -278,7 +278,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.4)
             lol.delete()
             update.effective_message.reply_sticker(
-                "CAACAgUAAx0CaYJXkAACDfhjPVg7KWbBT2g44lRtiN24JpzNaQACcwcAAiRO8VXjkW9AnnwsLSoE"
+                "CAACAgQAAxkBAAIs52Y4whVm2J9Q7BClC_EClBspwutxAAJsEAACR_5ZUrjtmegSiby6HgQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
